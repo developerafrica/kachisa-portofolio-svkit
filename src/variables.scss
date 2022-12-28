@@ -1,0 +1,13 @@
+@mixin fnt($c,$s,$w) {
+    font-size: $s;
+    color: $c;
+    font-weight: $w;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+:root{
+    --wc: white;    
+    --bl: black;    
+    --tc: black; 
+    
+    --bl-ln: linear-gradient(to right, #7F80B0 0%, white 90%)
+}
