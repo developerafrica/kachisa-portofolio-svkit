@@ -21,14 +21,7 @@
         <slot />
       </div>
     </main>
-    <footer>
-      <div class="ft">
-        <article class="author">
-          <h1>created with 🖤 by BUTAO PETER | DEVELOPER AFRICA MW</h1>
 
-        </article>
-      </div>
-    </footer>
   </div>
 </article>
 <style lang="scss">
@@ -54,14 +47,6 @@
         }
   
       }
-    }
-    footer{
-      position: fixed;
-      width: 100%;
-      bottom:0;
-      left:0;
-      
-
     }
     
   }

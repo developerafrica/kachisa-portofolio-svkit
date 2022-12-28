@@ -1,3 +1,23 @@
+<script>
+    const data = [
+        {
+            name :'art2.webp',
+            display:'girl with a dog',
+            price: 'k400 000 '
+        },
+        {
+            name :'art2.webp',
+            display:'girl with a dog',
+            price: 'k400 000 '
+        },
+        {
+            name :'art2.webp',
+            display:'girl with a dog',
+            price: 'k400 000 '
+        },
+       
+    ]
+</script>
 <article class="cards">
     <div class="crds">
         <header>
@@ -5,14 +25,25 @@
         </header>
         <main>
             <div class="mn">
+                {#each data as cdt}
                 <div class="card">
                     <div class="cd">
-                        <div class="img">
-                            <img src="/art2.webp" alt="artwork" >
+                        <div class="txt">
+                            <h1>
+                                {cdt.display}
+                            </h1>
                         </div>
-                        <div class="txt"></div>
+                        <div class="img">
+                            <img src={cdt.name} alt="artwork" >
+                        </div>
+                        <div class="end">
+                            <h1>
+                                {cdt.price}
+                            </h1>
+                        </div>
                     </div>
                 </div>
+                {/each}
             </div>
         </main>
     </div>
@@ -29,10 +60,33 @@
         main{
             .mn{
                 .card{
+                    margin: 2rem 0;
                     .cd{
                         padding: 1rem;
+                        .end{
+                            text-align: end;
+                            h1{
+
+                                @include fnt(var(--bl), 1.3rem, 600);
+                                border-right: black solid 1px;
+                                padding: 10px
+                            }
+                        }
+                        .txt{
+                            padding: 2rem;
+                            h1{
+                                display: inline;
+                                @include fnt(var(--tc), 1.3rem, 600);
+                                background: var(--wc);
+                                border: black solid 1px;
+                                border-radius: 3rem;
+                                padding: 1rem
+
+                            }
+
+                        }
                         .img{
-                            width: 300px;
+                            width: 250px;
                             margin: 0 auto;
                             img{
                                 width: 100%;

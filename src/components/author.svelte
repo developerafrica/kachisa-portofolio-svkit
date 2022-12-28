@@ -4,7 +4,7 @@
             <div class="cd">
                 <div class="txt">
                     <h1>EDSON KACHISA</h1>
-                    <p>pen artist</p>
+                    <p>pen artist & drawing instructor</p>
                     <a href="tel://0999791167">HIRE</a>
                 </div>
                 <div class="img">
@@ -41,7 +41,7 @@
                         border-radius: 4px;
                         margin: 10px 0;
                         box-shadow: rgba(0, 0, 0, 0.494) 0 4px 4px 0;
-                        background: seashell;
+                        background: var(--wc);
                         text-align: center;
                     }
                 }
