@@ -4,8 +4,7 @@
         <div class="mask">
             <h1>EDSON</h1>
         </div>
-        <hr>
-        <p>edson art kachisa </p>
+       
     </div>
 </article>
 <style lang="scss">
@@ -20,14 +19,7 @@
                 mask-image: linear-gradient(black, transparent); 
                 -webkit-mask-image: linear-gradient(black, transparent); 
             }
-            p{
-                @include fnt(var(--tc), 1.1rem, 700);
-                text-align: center;
-                letter-spacing: 2.3px;
-                font-family: monospace;
-                text-transform: uppercase;
-                
-            }
+            
             .mask{
                 text-align: center;
                 position: absolute;
@@ -45,7 +37,7 @@
                     background-clip: text;                    
                     -moz-background-clip: text;                    
                     -webkit-background-clip: text; 
-                    @include fnt(rgba(0, 0, 0, 0.481), 50px, 800);                                  
+                    @include fnt(rgba(0, 0, 0, 0.053), 60px, 800);                                  
                     
                     animation: bg-anime 10s cubic-bezier(0.3, 0, 0.7, 1) infinite;
                     @keyframes bg-anime{

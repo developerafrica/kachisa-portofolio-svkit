@@ -5,8 +5,8 @@
                 <div class="txt">
                     <div class="txt-tx">
                         <h1>EDSON KACHISA</h1>
-                        <p>pen artist & drawing instructor</p>
-                        <a href="tel://0999791167">HIRE</a>
+                        <p>pen artist </p>
+                        <a href="tel://0999791167">CONTACT</a>
                     </div>
                     <div class="txt-bg"></div>
 
@@ -20,7 +20,6 @@
 </article>
 <style lang="scss">
     article{
-        background: var(--bl-ln);
         border-radius: 3px;
         margin: 10vh 0 0 0;
         a{
@@ -60,7 +59,7 @@
 
                     }
                     p{
-                        @include fnt(var(--tc), 1.3rem, 700)
+                        @include fnt(var(--tc), 1.3rem, 600)
                     }
                     a{
                         @include fnt(var(--tc), 1.3rem, 750);
