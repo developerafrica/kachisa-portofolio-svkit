@@ -29,11 +29,12 @@
                 .txt{
                     
                     h1{
-                        @include fnt(var(--wc), 1.4rem, 700);
-                        padding: 5px 0;
+                        @include fnt(var(--wc), 1.4rem, 780);
+                        padding: 12px 0;
+                        letter-spacing: 1.2px;
                     }
                     p{
-                        @include fnt(var(--wc), 1.2rem, 650)
+                        @include fnt(var(--wc), 1.2rem, 600)
                     }
                     a{
                         @include fnt(var(--tc), 1.2rem, 650);
@@ -47,7 +48,7 @@
                 }
                 .img{
                     img{
-                        width: 100px;
+                        width: 110px;
                     }
                 }
             }

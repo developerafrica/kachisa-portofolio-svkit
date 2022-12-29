@@ -61,6 +61,8 @@
             .mn{
                 .card{
                     margin: 2rem 0;
+                    box-shadow: rgba(0, 0, 0, 0.098) 0 4px 4px 6px;
+                    border-radius: 4px;
                     .cd{
                         padding: 1rem;
                         .end{
@@ -69,7 +71,8 @@
 
                                 @include fnt(var(--bl), 1.3rem, 600);
                                 border-right: black solid 1px;
-                                padding: 10px
+                                padding: 0.8rem;
+                                border-radius: 1px;
                             }
                         }
                         .txt{
@@ -79,8 +82,10 @@
                                 @include fnt(var(--tc), 1.3rem, 600);
                                 background: var(--wc);
                                 border: black solid 1px;
-                                border-radius: 3rem;
-                                padding: 1rem
+                                border-radius: 5px;
+                                text-transform: uppercase;
+                                padding: 0.8rem;
+                                // box-shadow: rgba(0, 0, 0, 0.412) 0 4px 4px 0;
 
                             }
 

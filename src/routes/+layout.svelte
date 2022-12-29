@@ -25,6 +25,9 @@
   </div>
 </article>
 <style lang="scss">
+  // :global(body){
+  //   background: var(--bg)
+  // }
   article{
     padding: 10px;
     header{
@@ -33,6 +36,7 @@
       left:0;
       width: 100%;
       background: var(--wc);
+      z-index: 10;
       nav{
         padding: 1.5rem;
         ul{
@@ -40,8 +44,8 @@
           align-items: center;
           justify-content: space-between;
           a{
-            @include fnt(var(--tc), 1.4rem, 600);
-            letter-spacing: 1.1px;
+            @include fnt(var(--tc), 1.4rem, 650);
+            letter-spacing: 1.2px;
           }
   
         }
