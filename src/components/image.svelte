@@ -12,13 +12,13 @@
     article{
 
         .img{
-            width: 350px;
+            width: 250px;
             margin: 0 auto;
             position: relative;
             img{
                 width: 100%;
                 mask-image: linear-gradient(black, transparent); 
-                -webkit-mask-image: linear-gradient(white, transparent); 
+                -webkit-mask-image: linear-gradient(black, transparent); 
             }
             p{
                 @include fnt(var(--tc), 1.1rem, 700);
@@ -46,7 +46,7 @@
                     -moz-background-clip: text;                    
                     -webkit-background-clip: text; 
                                        
-                    font-size: 100px;
+                    font-size: 80px;
                     animation: bg-anime 25s cubic-bezier(0.3, 0, 0.7, 1) infinite;
                     @keyframes bg-anime{
                         0%{background-position: 70% 70%;}
