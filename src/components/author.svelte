@@ -22,7 +22,7 @@
     article{
         background: var(--bl-ln);
         border-radius: 3px;
-        margin: 2rem 0;
+        margin: 10vh 0 0 0;
         a{
             display: block;
             .cd{
@@ -38,7 +38,6 @@
                         height: 100%;
                         top:0;
                         left: 0;
-                        opacity: 45%;
                         mask-image: linear-gradient(to right,black, transparent); 
                         -webkit-mask-image: linear-gradient(to right, black, transparent);
                         background-image: url('/patternpad.svg');  
@@ -55,7 +54,7 @@
                    
                     h1{
 
-                        @include fnt(var(--wc), 1.4rem, 800);
+                        @include fnt(var(--tc), 1.4rem, 800);
                         padding: 10px 0;
                         letter-spacing: 2px;
 

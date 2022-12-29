@@ -39,11 +39,7 @@
             padding: 10vh 0 0 0;
             min-height: 100vh;
             position: relative;
-            section:nth-child(2){
-                position: absolute;
-                bottom: 0;
-                width: 100%;
-            }
+           
         }
         footer{
             background: var(--wc);

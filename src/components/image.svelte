@@ -2,7 +2,7 @@
     <div class="img">
         <img src="/art.webp" alt="artwork">
         <div class="mask">
-            <h1>ART</h1>
+            <h1>EDSON</h1>
         </div>
         <hr>
         <p>edson art kachisa </p>
@@ -39,15 +39,15 @@
                     background-size: cover;
                     background-repeat: no-repeat;
                     background-position: bottom;
-                    background-color: #0000009d;
-                    background-blend-mode: multiply;
-                    color: transparent;
+                    // background-color: #0000009d;
+                    // background-blend-mode: multiply;
+                
                     background-clip: text;                    
                     -moz-background-clip: text;                    
                     -webkit-background-clip: text; 
-                                       
-                    font-size: 80px;
-                    animation: bg-anime 25s cubic-bezier(0.3, 0, 0.7, 1) infinite;
+                    @include fnt(rgba(0, 0, 0, 0.481), 50px, 800);                                  
+                    
+                    animation: bg-anime 10s cubic-bezier(0.3, 0, 0.7, 1) infinite;
                     @keyframes bg-anime{
                         0%{background-position: 70% 70%;}
                         50%{background-position: 100% 100%;}
