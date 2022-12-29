@@ -5,12 +5,15 @@
 </script>
 <article class="main-page">
     <div class="mn-pg">
-        <section class="image-section">
-            <ImageCard />
-        </section>
-        <section class="author-section">
-            <Author />
-        </section>
+        <div class="landing">
+
+            <section class="image-section">
+                <ImageCard />
+            </section>
+            <section class="author-section">
+                <Author />
+            </section>
+        </div>
         <section class="cards-section">
             <Cards />
         </section>
@@ -32,10 +35,19 @@
 </article>
 <style lang="scss">
     article{
-        padding: 10vh 0 10vh 0;
+        .landing{
+            padding: 10vh 0 0 0;
+            min-height: 100vh;
+            position: relative;
+            section:nth-child(2){
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+            }
+        }
         footer{
             background: var(--wc);
-            padding: 2rem 0 0 0;
+            padding: 2rem 0 10vh 0;
             header{
                 text-align: center;
                 h1{
@@ -45,6 +57,7 @@
             }
             article{
                 text-align: center;
+                padding: 10vh 0;
                 h1{
                     @include fnt(var(--tc), 1.2rem, 600);
                     a{

@@ -79,12 +79,12 @@
                             padding: 2rem;
                             h1{
                                 display: inline;
-                                @include fnt(var(--tc), 1.3rem, 600);
+                                @include fnt(var(--tc), 1.13rem, 550);
                                 background: var(--wc);
-                                border: black solid 1px;
+                                border: black solid 0.9px;
                                 border-radius: 5px;
                                 text-transform: uppercase;
-                                padding: 0.8rem;
+                                padding: 1rem;
                                 // box-shadow: rgba(0, 0, 0, 0.412) 0 4px 4px 0;
 
                             }

@@ -24,6 +24,9 @@
 
   </div>
 </article>
+<svelte:head>
+  <meta name="theme-color" content="#fff">
+</svelte:head>
 <style lang="scss">
   // :global(body){
   //   background: var(--bg)
