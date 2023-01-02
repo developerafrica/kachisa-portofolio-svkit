@@ -20,18 +20,20 @@
 </article>
 <style lang="scss">
     article{
-        border-radius: 3px;
-        margin: 10vh 0 0 0;
         a{
+            border-radius: 3px;
             display: block;
             .cd{
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
+                background: var(--bl-ln);
                 .txt{
+                    z-index: 7;
                     flex: 1;
                     position: relative;
                     .txt-bg{
+                        z-index: 7;
                         position: absolute;
                         width: 100%;
                         height: 100%;
