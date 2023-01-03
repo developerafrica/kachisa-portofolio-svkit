@@ -12,14 +12,25 @@
         <main>
             <div class="mn">
                 <h1>ABOUT ARTIST</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aperiam exercitationem maiores harum culpa corporis tempore quo porro eius. Fugit vel minima quos, reprehenderit voluptates sunt quaerat hic! Fugit aliquam molestiae velit enim, minima, fugiat architecto reprehenderit aut esse dicta doloremque delectus eius? Impedit et, adipisci consequatur odit rerum dolorem!</p>
+                <p>Edison Kachisa is a self taught artist. Edison and his sibblings were insipired at an early age by their uncle Davie Naluso who is a very talented painter. As he grew older, Drawing developed, became a passion and a form of therapy</p>
                 <div class="image">
                     <img src="/bio.png" alt="biography">
                 </div>
-                <hr>
-                <h1>ARTIST STATEMENT</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit laboriosam, expedita alias impedit quibusdam quo illo modi nam culpa optio assumenda ratione ipsam eligendi harum ullam atque autem quas aspernatur error numquam laudantium, deleniti officia. Ipsam non rerum nesciunt obcaecati facere nobis similique tenetur? Porro ea quibusdam et! Dolore, facere soluta hic reprehenderit accusamus rerum magni. Natus atque aut praesentium! Doloribus, totam delectus nostrum cupiditate temporibus culpa? Atque voluptatem dicta quasi. Libero officiis expedita officia id eaque exercitationem porro enim. Consectetur dolorum consequuntur in mollitia voluptate dicta ipsum dignissimos temporibus rerum delectus aut autem at nesciunt, aliquam libero velit.</p>
+                <br>
+                <h1>BIO</h1>
+                <p>He draws usually using blue pens although he is learning how to use multicoloured pens and acrylic paints. Edison enjoys drawing local Malawian people. He views his art as a form of communication and story telling and strives in most of his themes to portray his society's identity,efforts and pride. His passion for his society has led him to found an initiative he named Art for Impact Mw to which he is deeply committed to. Edison's part of earnings through art sponsor the activities of his initiative which he believes will help his society in elevating rural livelihoods, support needy leaners in primary schools in rural areas, reafforestation and soil conservation.</p>
+                
                 <Author />
+                <br>
+                <br>
+                <h1>___</h1>
+                <p>
+                    Edison exhibited his artworks at the Art in the park (AITP)  11-13 November 2022 Exhibition. He received positive feedback and encouragement from art viewers and fellow artists as well including the legendary Malawian  artist Jimmy Malinga and Icon Malawian Batik artist Peter Chikondi. 
+                </p>
+                <br>
+                <p>
+                    Edison, his fellow artists and friends organised an art exhibition at their university campus at Lilongwe university of agriculture and Natural resources. The exhibition took place on 5 March 2022 at Bunda campus in attendance were students, members of staff including the vice Chancellor and the guest of honour was Dr Micheal Using the minister of tourism culture and wildlife. The guests and students that visited the event were all impressed with the artworks Edison and his fellow artists displayed. 
+                </p>
             </div>
         </main>
         <foot></foot>
@@ -48,12 +59,12 @@
                     padding: 10px;
                 }
                 p{
-                    @include fnt(var(--bl), 1.4rem, 600);
+                    @include fnt(var(--tc), 1.4rem, 600);
                     padding: 10px 0;
+                    line-height: 2;
                 }
                 padding: 10px;
                 .image{
-                    border: red solid 1px;
                     img{
                         width: 100%;
                     }

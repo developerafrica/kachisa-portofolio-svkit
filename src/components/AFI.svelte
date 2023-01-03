@@ -15,7 +15,9 @@
     article{
         .art-afi{
             background: goldenrod;
+            max-width: 355px;
             .image{
+                max-width: 355px;
                 img{
                     width: 100%
                 }
@@ -23,15 +25,17 @@
             .text{
                 padding: 10px;
                 h1{
-                    @include fnt(var(--tc), 1.5rem, 850);
+                    @include fnt(var(--tc), 1.7rem, 650);
                     text-transform: uppercase;
                     padding: 10px 0;
-                    letter-spacing: 1.3px;
+                    letter-spacing: 2px;
                 }
                 p{
-                    @include fnt(var(--tc), 1.4rem, 600);
+                    @include fnt(var(--tc), 1.3rem, 600);
+                    line-height: 2;
                     a{
                         @include fnt(var(--bl), 1.4rem, 650);
+                        letter-spacing: 1.6px;
 
                     }
                 }

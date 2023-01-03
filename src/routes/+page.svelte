@@ -8,7 +8,7 @@
     import {stores} from "../stores/stores.js"
 
     $: store  = $stores
-    console.log(store)
+   
 
     
 </script>
@@ -31,7 +31,7 @@
                     </header>
                     <main>
                         <div class="mn">
-                            {#each store.data.splice(0,4) as cdt}
+                            {#each store.dataSplice as cdt}
                                 <Cards  id={cdt.id} text={cdt.text} image={cdt.image} price={cdt.price} size={cdt.size}/>                            
                             {/each}
                         </div>
@@ -63,6 +63,7 @@
               <main>
                 <Footer />      
               </main>
+            
               <article class="author">
                 <h1>created with 🖤 by <a href="https://github.com/developerafrica/"> BUTAO PETER | DEVELOPER AFRICA MW</a></h1>
                 <div class="devafrica-card">
@@ -104,7 +105,6 @@
                         background: var(--btn-ln);
                         border-top-left-radius: 5px;
                         border-bottom-left-radius: 5px;
-                        border-right: black solid 2px;
                         @include fnt(var(--wc), 1.3rem, 600);
                     }
                 }
@@ -138,6 +138,7 @@
             article{
                 text-align: center;
                 padding: 10vh 0;
+                background: rgba(128, 128, 128, 0.183);
                 h1{
                     @include fnt(var(--tc), 1.2rem, 600);
                     a{

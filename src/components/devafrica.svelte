@@ -15,7 +15,7 @@
 <style lang="scss">
     article{
         padding:20px;
-        box-shadow: rgba(0, 0, 0, 0.157) 0 0 4px 6px;
+        box-shadow: rgba(0, 0, 0, 0.157) 0 1px 4px 1px;
         background: var(--wc);
         .art-dev{
             display: flex;
@@ -31,7 +31,7 @@
                     text-align: start;
                     margin: 15px 5px;
                     a{
-                        @include fnt(var(--bl), 1.3rem, 600);
+                        @include fnt(var(--bl), 1.3rem, 500);
                     }
 
                 }

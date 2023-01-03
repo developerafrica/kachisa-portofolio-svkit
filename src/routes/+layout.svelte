@@ -47,7 +47,7 @@
     clip-path: circle(1500px);
     -webkit-clip-path: circle(1500px);
     pointer-events: all;
-    transition: 2s all ease-in-out ;
+    transition: 2s all ease-in ;
 
   }
   article{
@@ -91,7 +91,7 @@
       }
     }
     article{
-      background:seashell;
+      background:white    ;
       height: 100vh;
       width: 100%;
       position: fixed;
