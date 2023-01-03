@@ -4,13 +4,13 @@
     let images = [
         {
             id: crypto.randomUUID(),
-            src: '/art1.png',
+            src: '/art2.png',
             alt: 'artwork',
             text: 'edson'
         },
         {
             id: crypto.randomUUID(),
-            src: '/art2.png',
+            src: '/art1.png',
             alt: 'artwork',
             text: 'art'
         },

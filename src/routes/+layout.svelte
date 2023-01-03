@@ -116,6 +116,7 @@
             margin: 20px 0;
             a{
               display: block;
+              text-transform: uppercase;
               padding: 15px;
               @include fnt(var(--tc), 1.4rem, 600);
             }

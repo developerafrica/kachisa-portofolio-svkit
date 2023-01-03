@@ -3,7 +3,7 @@
         <div class="text">
             <h2>DEVELOPER AFRICA MW</h2>
             <hr>
-            <h1><a href="https://developerafricamw.netlify.app">DEVELOPERAFRICAMW.COM</a></h1>
+            <h1><a href="https://developerafricamw.netlify.app">developerafrica.mw</a></h1>
             <h1><a href="mail://developerafricamw@gmail.com">developerafricamw@gmail.com</a></h1>
             <h1><a href="tel://0880164455">0880164455</a></h1>
         </div>

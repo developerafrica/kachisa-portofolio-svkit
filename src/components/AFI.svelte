@@ -33,6 +33,7 @@
                 p{
                     @include fnt(var(--tc), 1.3rem, 600);
                     line-height: 2;
+                    padding:10px;
                     a{
                         @include fnt(var(--bl), 1.4rem, 650);
                         letter-spacing: 1.6px;

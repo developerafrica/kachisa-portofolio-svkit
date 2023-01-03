@@ -62,6 +62,6 @@ const data = [
     new DataObj('art9.png', "african boy", '$100', "2022", "30 x 20", "avalable"),
     new DataObj('art10.png', "gilr potrait", '$100', "2022", "30 x 20", "avalable"),
 ]
-let dataSplice = [...data].splice(0,5)
+let dataSplice = [...data].splice(0,4      )
 
 export const stores = writable({data,dataSplice,AFI})
