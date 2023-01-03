@@ -3,7 +3,9 @@
         <header>
             <h1>ART FOR IMPACT</h1>
         </header>
-        <main></main>
+        <main>
+            
+        </main>
         <footer></footer>
     </div>
 </article>

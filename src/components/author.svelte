@@ -77,6 +77,7 @@
                 .img{
                     img{
                         width: 110px;
+                        filter: grayscale(100%);
                     }
                 }
             }

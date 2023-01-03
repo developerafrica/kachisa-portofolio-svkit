@@ -21,7 +21,7 @@
       export let size
 </script>
 
-<div class="card">
+<div id="card">
     <div class="cd">
         <div class="txt">
             <h1>
@@ -54,10 +54,11 @@
     </div>
 </div>
 <style lang="scss">
-    .card{
+    #card{
         margin: 2rem 0;
         box-shadow: rgba(0, 0, 0, 0.098) 0 4px 4px 6px;
         border-radius: 4px;
+        background: var(--wc);
         .cd{
             padding: 1rem;
             .end{
@@ -78,7 +79,7 @@
                             align-items: center;
                             gap: 10px;
                             span:nth-child(1){
-                                @include fnt(var(--tc), 1.5rem, 600);
+                                @include fnt(var(--tc), 1.5rem, 550);
                             }
                             svg{
                                 width: 18px;
@@ -93,14 +94,14 @@
                 }
                 h1{
     
-                    @include fnt(var(--bl), 1.3rem, 600);
+                    @include fnt(var(--bl), 1.3rem, 550);
                     border-right: black solid 1px;
                     padding: 0.8rem;
                     border-radius: 1px;
                 }
                 h2{
     
-                    @include fnt(var(--bl), 1.3rem, 600);
+                    @include fnt(var(--bl), 1.3rem, 520);
                   
                     padding: 0.8rem;
                     border-radius: 1px;

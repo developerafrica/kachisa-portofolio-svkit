@@ -23,7 +23,7 @@
           <li><a on:click={()=>{menu = !menu}} href="/">home</a></li>
           <li><a on:click={()=>{menu = !menu}} href="/about">biography</a></li>
           <li><a on:click={()=>{menu = !menu}} href="/gallery">gallery</a></li>
-          <li><a on:click={()=>{menu = !menu}} href="/afi">art for impact</a></li>
+          <li><a on:click={()=>{menu = !menu}} href="/afi">art for impact &rarr;</a></li>
           <li><a on:click={()=>{menu = !menu}} href="/contact">contact</a></li>
         </ul>
       </nav>
@@ -107,6 +107,11 @@
       nav{
         width: 100%;
         ul{
+          li:nth-child(4){
+            background: goldenrod;
+            border-radius: 5px;
+            text-transform: uppercase;
+          }
           li{
             margin: 20px 0;
             a{

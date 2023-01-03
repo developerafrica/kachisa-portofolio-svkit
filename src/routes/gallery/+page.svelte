@@ -1,6 +1,6 @@
 <script>
     import {stores} from "../../stores/stores"
-    console.log($stores.data)
+    console.log($stores.data) 
     import Cards from "../../components/cards.svelte"
 </script>
 <article class="gallery">

@@ -2,7 +2,13 @@
     import ImageCard from "../components/image.svelte";
     import Author from "../components/author.svelte";
     import Cards from "../components/cards.svelte";
+    import Developerafricamw from "../components/devafrica.svelte";
+    import AFI from "../components/AFI.svelte"
+    import Footer from "../components/footer.svelte"
     import {stores} from "../stores/stores.js"
+
+    $: store  = $stores
+    console.log(store)
 
     
 </script>
@@ -25,7 +31,7 @@
                     </header>
                     <main>
                         <div class="mn">
-                            {#each $stores.data.splice(0,4) as cdt}
+                            {#each store.data.splice(0,4) as cdt}
                                 <Cards  id={cdt.id} text={cdt.text} image={cdt.image} price={cdt.price} size={cdt.size}/>                            
                             {/each}
                         </div>
@@ -38,19 +44,31 @@
                 </div>
             </article>
         </section>
+        <hr>
+        <section class="afi-section">
+            <div class="afi-sect">
+                <header>
+                    <h1>INITIATIVES</h1>
+                </header>
+                <main>
+                    <AFI />
+                </main>
+            </div>
+        </section>
         <footer>
             <div class="ft">
               <header>
                 <h1>KACHISA EDSON ART</h1>
               </header>
               <main>
-      
+                <Footer />      
               </main>
               <article class="author">
                 <h1>created with 🖤 by <a href="https://github.com/developerafrica/"> BUTAO PETER | DEVELOPER AFRICA MW</a></h1>
-                <p><a href="tel://0880164455">
-                    <span>powered by</span><span><img src="/logo.png" alt="logo"></span><span>DEVELOPER AFRICA MW</span>                
-                </a></p>
+                <div class="devafrica-card">
+
+                    <Developerafricamw />
+                </div>
       
               </article>
             </div>
@@ -69,6 +87,7 @@
            
         }
         .cards-section{
+            padding: 0 0 20px 0;
             article{
                 header{
                     padding: 1rem;
@@ -78,14 +97,31 @@
                     }
                 }
                 footer{
-                    padding: 10px;
+                    padding: 30px 10px;
                     a{
                         display: block;
                         padding: 15px;
-                        background: var(--bl-ln);
-                        border-radius: 5px;
+                        background: var(--btn-ln);
+                        border-top-left-radius: 5px;
+                        border-bottom-left-radius: 5px;
+                        border-right: black solid 2px;
                         @include fnt(var(--wc), 1.3rem, 600);
                     }
+                }
+            }
+        }
+        .afi-section{
+            padding: 10px 0;
+            .afi-sect{
+                header{
+                    padding: 1rem;
+                    text-align: end;
+                    h1{
+                        @include fnt(var(--tc), 1.3rem, 600)
+                    }
+                }
+                main{
+                    padding: 40px 0;
                 }
             }
         }
@@ -110,18 +146,8 @@
                     }
 
                 }
-                p{
-                    padding:20px;
-                    a{
-                        @include fnt(var(--bl), 2.5rem, 700);
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        img{
-                            width: 25px;
-                            margin: 0 10px;
-                        }
-                    }
+                .devafrica-card{
+                    padding: 5vh 10px;
                 }
             }
         }

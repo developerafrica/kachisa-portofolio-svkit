@@ -16,7 +16,7 @@
         },
         {
             id: crypto.randomUUID(),
-            src: '/art3.png',
+            src: '/art9.png',
             alt: 'artwork',
             text: 'kachsa'
         }
@@ -67,6 +67,7 @@
                 width: 100%;
                 mask-image: linear-gradient(black, transparent); 
                 -webkit-mask-image: linear-gradient(black, transparent); 
+                
             }
             
             .mask{

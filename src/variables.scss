@@ -12,7 +12,9 @@
 
     // --bg: hsl(0, 0%, 15%);
     // --bg: hsl(0, 0%, 15%);
-    --bg: white;
+    --bg: #ffffff; 
     
-    --bl-ln: linear-gradient(to right, rgba(0, 0, 0, 0.786) 0%, white 90%)
+    
+    --bl-ln: linear-gradient(to right, rgba(0, 0, 0, 0.786) 0%, rgba(0, 0, 0, 0.068) 90%); 
+    --btn-ln: linear-gradient(to right, rgba(0, 0, 0, 0.786) 0%,rgba(0, 0, 0, 0.106) 90%);
 }
